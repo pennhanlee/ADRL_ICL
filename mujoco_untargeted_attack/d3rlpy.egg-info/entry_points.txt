@@ -1,0 +1,3 @@
+[console_scripts]
+d3rlpy = d3rlpy.cli:cli
+
