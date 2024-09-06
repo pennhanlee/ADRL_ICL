@@ -5,7 +5,7 @@ from d3rlpy.metrics.scorer import td_error_scorer
 from d3rlpy.metrics.scorer import discounted_sum_of_advantage_scorer
 from d3rlpy.metrics.scorer import average_value_estimation_scorer
 from sklearn.model_selection import train_test_split
-from mujoco_poisoned_dataset import poison_hopper, poison_walker2d, poison_half
+from poison_methods.mujoco_poisoned_dataset_median_value import poison_hopper, poison_walker2d, poison_half
 import random
 
 import argparse
