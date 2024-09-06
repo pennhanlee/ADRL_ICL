@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 def main(args):
     dataset, env = d3rlpy.datasets.get_d4rl(args.dataset)
     d3rlpy.seed(args.seed)
-    train_episodes, test_episodes = train_test_split(dataset, test_size=0.2)
+    train_episodes, test_episodes = train_test_split(dataset, test_size=0.1)
     cql = d3rlpy.algos.BCQ.from_json(args.model, use_gpu=True)
     cql.fit(train_episodes,
             eval_episodes=test_episodes,
