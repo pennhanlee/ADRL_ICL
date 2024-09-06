@@ -10,6 +10,9 @@ This is a research that evaluates the adversarial robustness of Offline Reinforc
 3. Control Attack
 
 The code for Untargeted Attack is in `mujoco_untargeted_attack` folder
+
 The code for Targeted Attack is in `gridworld_targeted_control_attack` folder
+
 The code for Control Attack (DISCRETE ENVIRONMENT) is in the `gridworld_targeted_control_attack` folder
+
 The code for the Control Attack (CONTINUOUS ENVIRONMENT) is in `carracing_control_attack` folder
