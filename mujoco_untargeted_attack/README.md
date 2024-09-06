@@ -46,3 +46,8 @@ Example of running a target agent training
 ## In the mujoco folder
 python poisoned_mujoco_cql.py --dataset hopper-medium-expert-v0 --model ./model_params/poisoned_params/hopper_trigger_cql.json --poison_rate 0.1 
 ```
+
+### References
+- **BAFFLE: Hiding Backdoors in Offline Reinforcement Learning Datasets** 
+The code is adapted from [BAFFLE](https://github.com/2019ChenGong/Offline_RL_Poisoner)
+
